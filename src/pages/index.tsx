@@ -78,10 +78,10 @@ const IndexPage = () => (
         width={64}
         quality={95}
         formats={['auto', 'webp', 'avif']}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
+        alt="example_image"
+        className="mb-4"
       />
-      <h1>
+      <h1 className="text-3xl font-bold underline">
         Welcome to <b>dain!</b>
       </h1>
       <p className="intro">
